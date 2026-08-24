@@ -2,6 +2,20 @@
 
 SupportFlow AI is a local support-operations copilot that turns incoming customer tickets into structured triage decisions, routing metadata, escalation signals, safe draft replies, and integration-ready automation payloads.
 
+## Product walkthrough
+
+### 1. Ticket and policy context
+
+![SupportFlow AI ticket input](docs/screenshots/01-ticket-input.png)
+
+### 2. Structured triage and escalation
+
+![SupportFlow AI triage decision](docs/screenshots/02-triage-decision.png)
+
+### 3. Policy-aware draft reply
+
+![SupportFlow AI draft reply](docs/screenshots/03-draft-reply.png)
+
 ## What it demonstrates
 
 - Structured LLM classification validated with Pydantic
@@ -68,4 +82,3 @@ The container connects to Ollama on the Windows host through `host.docker.intern
 ## Portfolio status
 
 Personal demonstration project. It does not represent work completed for a client.
-
