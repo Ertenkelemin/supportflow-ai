@@ -1,0 +1,9 @@
+services:
+  supportflow:
+    build: .
+    ports:
+      - "8503:8501"
+    environment:
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      OLLAMA_MODEL: qwen3:8b
+
